@@ -33,6 +33,16 @@
             </a>
           </li>
           {% endif %}
+          {% if site.author.telegram and site.footer-links-active.telegram %}
+          <li>
+            <a href="https://telegram.me/{{ site.author.telegram }}" title="Telegram">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}		  
 		  {% if site.author.email and site.footer-links-active.email %}
           <li>
             <a href="mailto:{{ site.author.email }}" title="Email me">
@@ -72,7 +82,8 @@
 			  </span>
 			</a>
 		  </li>		
-          {% endif %}		  
+          {% endif %}
+          
         </ul>
         <p class="copyright text-muted">
 		  {{ site.author.name }}

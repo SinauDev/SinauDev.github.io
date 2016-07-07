@@ -12,9 +12,9 @@ Dengan tercipta nya wadah tersebut diharapkan bisa menjadikan tempat untuk bertu
 Tidak ada keterikatan seperti strata yang biasa kita jumpai. Dimana yang tinggi selalu ditempatkan ditempat tinggi dan begitu juga sebaliknya. Menurut saya, itu tidak adil. Setiap manusia mempunyai strata yang sama rata satu sama lain dan tak ada batasan seseorang untuk belajar. Seperti kata pepatah 'Apapun yang ada didepan mu adalah pelajaran.'
 
 ### Definisi Sinau Development
-Sinau Development atau disingkat menjadi SinauDev adalah wadah sarana belajar bersama terkait _Hardware and Software development_. Ditujukan untuk semua kalangan tanpa memandang strata.
+Sinau Development atau disingkat menjadi SinauDev adalah wadah sarana belajar bersama terkait _hardware and software development_. Ditujukan untuk semua kalangan tanpa memandang strata.
 
-Sinau Development diambil dari dua `Sinau` dan `Development`. Kata `Sinau` dalam bahasa Jawa berarti `belajar`. Sedang menurut Kamus Besar Bahasa Indonesia (KBBI) `sinau` berarti `bersinar-bersinar`. Kemudian kata `Development` dalam bahasa Inggris memiliki padanan `membangun` atau `mengembangkan`. Bila kedua kata tersebut digabungkan menjadi **Belajar untuk membangun/mengembangkan(_development_)**.
+Sinau Development diambil dari dua kata `Sinau` dan `Development`. Kata `Sinau` dalam bahasa Jawa berarti `belajar`. Sedang menurut Kamus Besar Bahasa Indonesia (KBBI) `sinau` berarti `bersinar-bersinar`. Kemudian kata `Development` dalam bahasa Inggris memiliki padanan `membangun` atau `mengembangkan`. Bila kedua kata tersebut digabungkan menjadi **Belajar untuk membangun/mengembangkan(_development_)**.
 
 Sinau Development itu sendiri masihlah tergolong baru. Tapi, saya yakin ini bisa menjadi baik kedepannya bila dibarengi dengan niat baik. Kita bisa bangun ini bersama. Bukan hanya persoalan tentang saya tapi persoalan tentang kita.
 
