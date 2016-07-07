@@ -16,7 +16,7 @@ Karena SinauDev terbilang masih sangat baru, jadi apa saja yang diajarkannya unt
 
 ## Bagaimana Cara Bergabung dengan SinauDev?
 
-Ini bergabung dengan SinauDev? Cukup mudah Anda hanya perlu memasang aplikasi [Telegram](https://telegram.org/) baik pada PC/Laptop ataupun Smartphone Anda, dan klik tautan berikut:
+Ingin bergabung dengan SinauDev? Cukup mudah, Anda hanya perlu memasang aplikasi [Telegram](https://telegram.org/) baik pada PC/Laptop ataupun Smartphone Anda, dan klik tautan berikut:
 
 ### [Join us Sinau Development](https://telegram.me/sinaudev)
 

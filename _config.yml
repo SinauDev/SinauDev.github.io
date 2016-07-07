@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://sinaudev.github.io"
+url: "http://localhost"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -17,7 +17,7 @@ baseurl: ""
 title: Sinau Development
 
 # Short description of your site
-description: Mari Belajar Bersama
+description: Bahtera Ilmu, Pelita Hidup
 
 # --- Navigation bar options --- #
 
@@ -40,13 +40,13 @@ avatar: "/img/logo.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Sinau Dev
-  email: "youremail@domain.com"
+  email: "sinaudev@gmail.com"
   facebook: yourname  # eg. daattali
-  github: yourname    # eg. daattali
+  github: SinauDev    # eg. daattali
   twitter: yourname   # eg. daattali
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
   stackoverflow: yourlink  # eg. "3943160/daattali"
- 
+
 # Select which links to show in the footer
 footer-links-active:
   rss: false
@@ -59,7 +59,7 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "sinaudev.github.op"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "SinauDev.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
