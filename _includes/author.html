@@ -1,0 +1,24 @@
+<h4>Tentang Penulis</h4>
+<div class="media author-info">
+  <div class="media-left author-avatar">
+    {% if page.author.image %}
+      <img class="media-object" src="{{ page.author.image }}">
+    {% elsif page.author.github %}
+      <img class="media-object" src="http://github.com/{{ page.author.github }}.png?size=96">
+    {% else %}
+      <img class="media-object" src="{{ page.author.image }}">
+    {% endif %}
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading author-name">
+      {% if page.author.website %}
+        <a href="{{ page.author.website }}">{{ page.author.name }}</a>
+      {% else %}
+        {{ page.author.name }}
+      {% endif %}
+    </h4> 
+    <div class="author-bio">  
+        {{ page.author.bio }}
+    </div> 
+  </div>
+</div>

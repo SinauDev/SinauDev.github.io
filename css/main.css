@@ -552,3 +552,15 @@ table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
 }
+
+/* Author info */
+.post-meta {
+    margin: 30px 0;
+}
+.author-info {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.author-info img {
+    max-width: 96px;
+}
