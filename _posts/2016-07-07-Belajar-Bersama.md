@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bergabung dan Belajar Bersama di Sinau Development!
+author: aan
 ---
 
 ### Latar Belakang

@@ -77,6 +77,8 @@ disqus: "sinaudev"
 timezone: "Asia/Jakarta"
 markdown: kramdown
 highlighter: rouge
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
@@ -155,6 +157,12 @@ prose:
 
 gems:
   - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-archives
+
+include: 
+  - _pages
+  - _authors
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

@@ -564,3 +564,12 @@ table tr td :last-child {
 .author-info img {
     max-width: 96px;
 }
+
+.author-bio > p {
+  margin: 0;
+}
+
+.no-border {
+  border:0;
+  padding: 0;
+}

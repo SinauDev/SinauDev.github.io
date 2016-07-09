@@ -1,0 +1,75 @@
+---
+layout: default
+type: archive
+---
+
+
+<div class="container">
+
+
+<div class="media author-info no-border">
+  <div class="media-left author-avatar">
+    {% if page.image %}
+      <img class="media-object" src="{{ page.image }}">
+    {% elsif page.github %}
+      <img class="media-object" src="http://github.com/{{ page.github }}.png?size=96">
+    {% else %}
+      <img class="media-object" src="{{ page.image }}">
+    {% endif %}
+  </div>
+  <div class="media-body">
+    <h1 class="media-heading author-name">
+      {% if page.website %}
+        <a href="/author/{{ page.username }}">{{ page.fullname }}</a>
+      {% endif %}
+    </h1>
+    <ul class="list-inline">
+      {% if page.website %}   
+        <li><i class="fa fa-globe"></i> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></li>
+      {% endif %}  
+      {% if page.email %}  
+      <li><i class="fa fa-envelope"></i> <a href="mailto:{{ page.email }}" target="_blank">{{ page.email }}</a></li>
+      {% endif %}  
+      {% if page.github %}  
+      <li><i class="fa fa-github"></i> <a href="https://github.com/{{ page.github }}" target="_blank">{{ page.github }}
+      </a></li>
+      {% endif %}  
+      {% if page.twitter %}  
+      <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ page.twitter }}" target="_blank">{{ page.twitter }}</a></li>
+      {% endif %}  
+      
+    </ul>
+    
+    
+    <div class="author-bio">  
+        
+    </div> 
+  </div>
+</div>
+
+<h1>Biografi</h1>
+{{ content }}
+
+
+  <h1>Tulisan</h1>
+  <ul class="list-unstyled">
+    <li>
+    {% for post in site.posts %}
+     {% if post.author == page.username %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% unless year == this_year %}
+        {% assign year = this_year %}
+        <h3>Tahun {{ year }}</h3>
+        <ul class="list-styled">
+      {% endunless %}
+      <li>
+          <span>{{ post.date | date: "%d %B" }}</span> -        
+         <a href="{{ site.domain }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul></li>
+  </ul>
+
+</div>
+
