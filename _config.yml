@@ -23,7 +23,9 @@ description: Bahtera Ilmu, Pelita Hidup
 
 # List of links in the navigation bar
 navbar-links:
-  About Us: "about-us"
+  Panduan Kontribusi: "panduan-kontribusi"
+  Unduhan: "unduhan"
+  Tentang Kami: "tentang-kami"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -46,7 +48,7 @@ author:
   twitter: sinaudev   # eg. daattali
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
   stackoverflow: yourlink  # eg. "3943160/daattali"
-  telegram: sinaudev	
+  telegram: sinaudev
 
 # Select which links to show in the footer
 footer-links-active:
@@ -77,7 +79,10 @@ disqus: "sinaudev"
 timezone: "Asia/Jakarta"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+# permalink: /:year-:month-:day-:title/
+permalink: /:categories/:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
@@ -99,6 +104,7 @@ defaults:
       layout: "page"
       show-avatar: true
 
+
 # Exclude these files from production site
 exclude:
   - Gemfile
@@ -107,7 +113,7 @@ exclude:
   - README.md
   - CNAME
   - Vagrantfile
-
+ 
 # prose.io config
 prose:
   rooturl: '_posts'
@@ -155,6 +161,9 @@ prose:
 
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

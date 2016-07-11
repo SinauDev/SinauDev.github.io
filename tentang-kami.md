@@ -1,6 +1,10 @@
-# Sinau Development
+---
+layout: page
+title: Tentang Kami
+subtitle: Sinau Development
+---
 
-## Apa itu Sinau Development?
+## Apa itu Sinau Development ?
 
 Sinau Development atau disingkat menjadi SinauDev adalah wadah sarana belajar bersama terkait _hardware and software development_. Ditujukan untuk semua kalangan tanpa memandang strata.
 

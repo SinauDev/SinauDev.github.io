@@ -37,6 +37,7 @@
 		  
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+
 		  {% endif %}
         </div>
       </div>
@@ -61,7 +62,23 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+		  
+		  <ul class="list-inline">  
+			    <li class="post-meta"><span class="fa fa-calendar icon-padding"></span>
+			    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+			    </li>
+			    <li><span class="fa fa-folder-open icon-padding"></span><a href="{{ site.baseurl }}/{{ page.category }}">{{ page.category | capitalize }}</a></li>
+         {% assign tags_count = (page.tags | size) %} 
+         {% if tags_count > 0 %}
+         <li>
+          <span class="fa fa-tags icon-padding"></span>
+            {% for tag in page.tags %}
+            <span class="label label-info">{{ tag }}</span>
+           {% endfor %}
+         </li>
+         {% endif %}
+			   
+			  </ul>
 		  {% endif %}
         </div>
       </div>

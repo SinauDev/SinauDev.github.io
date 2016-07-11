@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Selamat Datang di Sinau Development
+title: Contoh Post
 author: aan
+category: dev
+tags: [web, jekyll]
 ---
 
 Sinau Development atau disingkat menjadi SinauDev adalah wadah sarana belajar bersama terkait _hardware and software development_. Ditujukan untuk semua kalangan tanpa memandang strata.

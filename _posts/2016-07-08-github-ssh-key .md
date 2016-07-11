@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Lebih Mudah GitHub dengan SSH Key
-author: 
-    name   : 'Ali, S.S.'
-    github : 'aliterm'
-    website: 'https://situsali.com'
-    bio    : 'Perkenalkan nama saya Ali,S.S. seorang Sarjana Sastra dari Fakultas Adab dan Humaniora, jurusan Tarjamah, Universitas Islam Negeri Syarif Hidayatullah Jakarta. 
-    Saya seorang yang antusias dengan Linux distro Archlinux atau turunannya (baca: Archlinux Distro yang Saya Gunakan Sehari-hari), maka jangan heran banyak tulisan saya di sini menggunakan Archlinux. Tapi bukan berarti saya tidak suka dengan OS lainnya seperti Windows atau MacOS. Ada pula postingan yang saya tuliskan di laman ini mengenai tutorial Windows, meski terbilang sedikit.'
+author: ali
 ---
 
 Bahasan pertama di SinauDev yakni mengenai pemanfaatan SSH Key untuk GitHub. Apa sih maanfaatnya? Mengapa harus menggunakan SSH key? Salah satu manfaat yang terasa ketika menggunakan SSH Key yakni kita tidak perlu lagi memasukan _username_ dan _password_ pada saat _clone_, _push_, ataupun _pull_. Dengan demikian akan mempersingkat kerja kita.
