@@ -11,8 +11,11 @@ body {
 }
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  /*margin: 30px 0;*/
 }
+
+
+
 p a {
   /* text-decoration: underline */
   color: #008AFF;
@@ -334,9 +337,14 @@ footer .theme-by {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 80px 0 20px;
+  /*margin: 80px 0 20px;*/
   position: relative;
 }
+
+@media only screen and (max-width: 768px) {
+  .intro-header{margin: 80px 0 0px;}
+}
+
 .intro-header.big-img {
   background: no-repeat center center;
   -webkit-background-size: cover;
@@ -572,4 +580,8 @@ table tr td :last-child {
 .no-border {
   border:0;
   padding: 0;
+}
+
+.icon-padding{
+  padding-right: 8px;
 }

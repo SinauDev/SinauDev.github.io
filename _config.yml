@@ -23,8 +23,14 @@ description: Bahtera Ilmu, Pelita Hidup
 
 # List of links in the navigation bar
 navbar-links:
+  Kategori:
+    - Pemrograman: "pemrograman"
+    - GNU/Linux: "linux"
+    - Jaringan: "jaringan"
+    
   Panduan Kontribusi: "panduan-kontribusi"
-  About Us: "about-us"
+  Unduhan: "unduhan"
+  Tentang Kami: "tentang-kami"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -80,7 +86,8 @@ markdown: kramdown
 highlighter: rouge
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink: /:year-:month-:day-:title/
+# permalink: /:year-:month-:day-:title/
+permalink: /:categories/:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
@@ -102,6 +109,7 @@ defaults:
       layout: "page"
       show-avatar: true
 
+
 # Exclude these files from production site
 exclude:
   - Gemfile
@@ -110,7 +118,8 @@ exclude:
   - README.md
   - CNAME
   - Vagrantfile
-
+  - _drafts
+ 
 # prose.io config
 prose:
   rooturl: '_posts'
@@ -158,12 +167,9 @@ prose:
 
 gems:
   - jekyll-paginate
-#  - jekyll-sitemap
-#  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-archives
 
-include:
-  - _pages
-  - _authors
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

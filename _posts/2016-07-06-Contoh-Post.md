@@ -2,7 +2,7 @@
 layout: post
 title: Contoh Post
 author: aan
-category: Dev
+category: pemrograman
 tags: [web, jekyll]
 ---
 
