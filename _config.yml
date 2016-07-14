@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://sinaudev.github.io"
+url: "https://sinaudev.org"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -87,7 +87,7 @@ highlighter: rouge
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 # permalink: /:year-:month-:day-:title/
-permalink: /:categories/:year-:month-:day-:title/
+permalink: /:categories/:year-:month-:day/:title/
 paginate: 5
 
 kramdown:
