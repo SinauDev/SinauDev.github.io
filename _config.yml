@@ -27,7 +27,7 @@ navbar-links:
     - Pemrograman: "pemrograman"
     - GNU/Linux: "linux"
     - Jaringan: "jaringan"
-    
+
   Panduan Kontribusi: "panduan-kontribusi"
   Unduhan: "unduhan"
   Tentang Kami: "tentang-kami"
@@ -46,7 +46,7 @@ avatar: "/img/logo.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Sinau Dev
+  name: Sinau Development
   email: "sinaudev@gmail.com"
   facebook: sinaudev  # eg. daattali
   github: SinauDev    # eg. daattali
@@ -68,7 +68,7 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "SinauDev.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "SinauDev.org"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
@@ -119,7 +119,7 @@ exclude:
   - CNAME
   - Vagrantfile
   - _drafts
- 
+
 # prose.io config
 prose:
   rooturl: '_posts'
