@@ -4,4 +4,4 @@ title: Pemrograman
 category: pemrograman
 ---
 
-Berikut ini adalah arsip tentang bahasa pemerograman komputer:
+Berikut ini adalah arsip tentang bahasa pemrograman komputer:
