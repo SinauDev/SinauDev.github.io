@@ -23,7 +23,7 @@ Ilustrasi gambar tersebut menerangkan tentang keuntungan bila kita memakai Docke
 
 ## Docker untuk siapa?
 
-Seperti yang sudah dijelaskan diatas, bahwa Docker didesain untuk memberikan kemudahan serta keuntungan bagi `developer` maupun `system administration`, mungkin banyak orang menyebutnya sebagai `DevOps (developers + operations)` yaitu gabungan antara `developer` dan `system administration`. Bagi para `developer` tak perlu khawatir memikirkan tentang sistem yang akan berjalan, cukup fokus pada pengembangan aplikasi yang akan dibuat saja. `Developer` juga dapat menggunakan berbagai macam program yang sudah didesain untuk memenuhi kriteria yang dibutuhkan. Bagi para `system administration` sangat menguntungkan dikarenakan `resource` yang dipakai cukup kecil dengan sistem yang dibutuhkan oleh `developer`.
+Seperti yang sudah dijelaskan diatas, bahwa Docker didesain untuk memberikan kemudahan serta keuntungan bagi `developer` maupun `system administrator`, mungkin banyak orang menyebutnya sebagai `DevOps (developers + operations)` yaitu gabungan antara `developer` dan `system administrator`. Bagi para `developer` tak perlu khawatir memikirkan tentang sistem yang akan berjalan, cukup fokus pada pengembangan aplikasi yang akan dibuat saja. `Developer` juga dapat menggunakan berbagai macam program yang sudah didesain untuk memenuhi kriteria yang dibutuhkan. Bagi para `system administrator` sangat menguntungkan dikarenakan `resource` yang dipakai cukup kecil dengan sistem yang dibutuhkan oleh `developer`.
 
 ## Kapan sebaiknya menggunakan Docker?
 
