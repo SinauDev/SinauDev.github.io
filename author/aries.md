@@ -1,6 +1,6 @@
 ---
 layout: author
-username: ariesm
+username: aries
 github: ariesmaulana
 fullname: Aries Maulana
 twitter: @ariesM_
