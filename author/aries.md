@@ -3,7 +3,7 @@ layout: author
 username: aries
 github: ariesmaulana
 fullname: Aries Maulana
-twitter: @ariesM_
+twitter: ariesM_
 website: http://semacamblog.com/
 ---
 
