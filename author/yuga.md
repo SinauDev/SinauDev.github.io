@@ -3,7 +3,7 @@ layout: author
 username: yuga
 fullname: Muhammad Yuga Nugraha
 github: pixxuser
-website: http://petruknisme.com
+website: http://pixxuser.github.io
 email: myugan59@gmail.com
 twitter: muhyuga25
 ---
