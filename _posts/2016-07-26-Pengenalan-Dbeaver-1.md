@@ -6,7 +6,7 @@ category: linux
 tags: [sql client]
 ---
 
-Mungkin salah asatu plikasi wajib bagi para programmer adalah _sql client_, aplikasi yang membantu para programmer dalam menangani database yang digunakan. Cukup banyak jenis dari aplikasi _sql client_ ini dari yang mulai _web based_ sampai dengan _desktop_, dari yang berbayar sampai dengan yang gratis. Pada tulisan pertama saya ini saya mencoba utnuk membahas salah satu _sql client desktop_ yang bernama Dbeaver.
+Mungkin salah satu plikasi wajib bagi para programmer adalah _sql client_, aplikasi yang membantu para programmer dalam menangani database yang digunakan. Cukup banyak jenis dari aplikasi _sql client_ ini dari yang mulai _web based_ sampai dengan _desktop_, dari yang berbayar sampai dengan yang gratis. Pada tulisan pertama saya ini saya mencoba untuk membahas salah satu _sql client desktop_ yang bernama Dbeaver.
 
 ## Kenapa DBeaver ?
 
