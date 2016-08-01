@@ -12,7 +12,11 @@ Sinau Development diambil dari dua kata `Sinau` dan `Development`. Kata `Sinau` 
 
 ## Apa Saja yang Diajarkan Di SinauDev?
 
-Karena SinauDev terbilang masih sangat baru, jadi apa saja yang diajarkannya untuk saat ini belum ada.
+Untuk saat ini kita membahas tentang Development, Linux, Jaringan dan Security. Untuk bahasan di telegram bisa berubah sesuai dengan topik yang sedang didiskusikan. 
+
+## Berminat Berkontribusi bersama Kami?
+
+Dengan senang hati kami akan menerima kontribusi dalam bentuk apapun selama itu bermanfaat. Silahkan baca Panduan Kontribusi disini [http://sinaudev.org/panduan-kontribusi/](http://sinaudev.org/panduan-kontribusi/)
 
 ## Bagaimana Cara Bergabung dengan SinauDev?
 
