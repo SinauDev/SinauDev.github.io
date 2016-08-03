@@ -16,6 +16,7 @@ Sebagai seorang developer kita pasti tahu betapa tidak enaknya saat karya kita d
 # Kerugian membajak
 
 Disamping adanya keuntungan membajak yaitu tanpa perlu membayar lisensi cuma ternyata banyak sekali kekurangannya.
+
 - Tidak ada dukungan dari developer (gak ada update)
 - Rentan dimasukin malware (via tool cracking)
 - dan satu lagi nih yaitu **DOSA** bro inget kalau membajak = mencuri
