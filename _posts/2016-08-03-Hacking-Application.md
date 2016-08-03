@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Hacking Application.
+title: Advice to Stop Piracy.
 author: arcestia
-category: sekuritas
-tags: [sekuritas, pembajakan, hacking]
+category: keamanan
+tags: [keamanan, pembajakan, hacking]
 ---
 
 Disini saya tidak akan membahas teknisnya karena hanya ingin mengambil inti dari post yang baru saja saya baca.
