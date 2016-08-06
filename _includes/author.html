@@ -1,8 +1,6 @@
-{% for p in site.pages %}
-  {% assign hal = p.name | remove: '.md' %}
-  {% if hal == page.author %}
-    {% assign author = p %}
-    {% assign content = p.content | markdownify }
+{% for a in site.authors %}
+  {% if a.username == page.author %}
+    {% assign author = a %}
     {% break %}
   {% endif %} 
 {% endfor %}
@@ -27,7 +25,7 @@
       {% endif %}
     </h4> 
     <div class="author-bio">  
-        {{ content }}
+        {{ author.content }}
     </div> 
   </div>
 </div>
