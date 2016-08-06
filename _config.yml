@@ -31,7 +31,9 @@ navbar-links:
 
   Panduan Kontribusi: "panduan-kontribusi"
   Unduhan: "unduhan"
-  Tentang Kami: "tentang-kami"
+  Tentang:
+      - Tentang Kami: "tentang-kami"
+      - Profil Kontributor: "sinaudev-tim"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"

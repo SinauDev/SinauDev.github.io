@@ -3,11 +3,11 @@ layout: default
 type: archive
 ---
 
-{% capture author %} 
+{% capture author %}
  {% for post in site.posts %}
-  {{ post.author }} 	
+  {{ post.author }}
 {% endfor %}
 {% endcapture %}
 
 
- {{ author | split: ' ' | uniq | join: ' '  }}
+ {{ author | split: ' ' | sort | uniq | join: ' '  }}
