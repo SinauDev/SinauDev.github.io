@@ -1,3 +1,6 @@
+---
+layout: null
+---
 /* SITE */
 Last Updated: {{ site.time | date:"%Y/%m/%d" }}
 Standards: HTML5, CSS3
