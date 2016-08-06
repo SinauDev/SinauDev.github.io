@@ -3,11 +3,48 @@ layout: default
 type: archive
 ---
 
-{% capture author %}
- {% for post in site.posts %}
-  {{ post.author }}
+<h4>Berikut ini nama-nama kontributor:</h4>
+
+{% for author in site.authors %}
+
+<div class="media author-info">
+  <div class="media-left author-avatar">
+    {% if author.image %}
+      <img class="media-object" src="{{ author.image }}">
+    {% elsif author.github %}
+      <img class="media-object" src="http://github.com/{{ author.github }}.png?size=96">
+    {% else %}
+      <img class="media-object" src="{{ author.image }}">
+    {% endif %}
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading author-name">
+      {% if author.website %}
+        <a href="/author/{{ author.username }}">{{ author.fullname }}</a>
+      {% else %}
+        {{ author.name }}
+      {% endif %}
+    </h4>
+    <ul class="list-inline">
+      {% if author.website %}   
+        <li><i class="fa fa-globe"></i> <a href="{{ author.website }}" target="_blank">{{ author.website }}</a></li>
+      {% endif %}  
+      {% if author.email %}  
+      <li><i class="fa fa-envelope"></i> <a href="mailto:{{ author.email }}" target="_blank">{{ author.email }}</a></li>
+      {% endif %}  
+      {% if author.github %}  
+      <li><i class="fa fa-github"></i> <a href="https://github.com/{{ author.github }}" target="_blank">{{ author.github }}
+      </a></li>
+      {% endif %}  
+      {% if author.twitter %}  
+      <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ author.twitter }}" target="_blank">{{ author.twitter }}</a></li>
+      {% endif %}   
+    </ul> 
+    <div class="author-bio">  
+        {{ author.content }}
+    </div> 
+  </div>
+</div>
 {% endfor %}
-{% endcapture %}
+    
 
-
- {{ author | split: ' ' | sort | uniq | join: ' '  }}

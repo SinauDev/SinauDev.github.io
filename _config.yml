@@ -58,6 +58,11 @@ author:
   stackoverflow: yourlink  # eg. "3943160/daattali"
   telegram: sinaudev
 
+collections:
+  authors:
+    output: true
+    permalink: /awesome/:name/
+    
 # Select which links to show in the footer
 footer-links-active:
   rss: true
