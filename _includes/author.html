@@ -25,7 +25,7 @@
       {% endif %}
     </h4> 
     <div class="author-bio">  
-        {{ author.content }}
+        {{ author.content | markdownify }}
     </div> 
   </div>
 </div>
