@@ -18,6 +18,7 @@ antara lain:
 
 1. _Private_ _repository_ tak terbatas untuk pengguna. 
 2. Mendukung banyak Static Pages Generator [!EKS_LINK_ICON][6]
+3. Dukungan Large Fire Storage (LFS) secara gratis bagi yang ingin upload materi di repo.
 
 Berikut ini catatan saya
 dalam proses migrasi dari Github ke Gitlab Pages:
