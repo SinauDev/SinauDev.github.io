@@ -17,7 +17,7 @@ Beberapa kelebihan Gitlab Pages dibandingkan dengan Github Pages
 antara lain:
 
 1. _Private_ _repository_ tak terbatas untuk pengguna. 
-2. Mendukung banyak Static Pages Generator [!EKS_LINK_ICON][6]
+2. Mendukung banyak Static Pages Generator [<i class='fa fa-external-link'></i>][6]
 3. Dukungan Large File Storage (LFS) secara gratis bagi yang ingin upload materi di repo.
 
 Berikut ini catatan saya
@@ -30,7 +30,7 @@ dalam proses migrasi dari Github ke Gitlab Pages:
    otomatis
 3. Gitlab menyediakan _repository_ awal yang dapat kita _fork_
    untuk memulai sebuah proyek Gitlab Pages dengan cepat
-   [!EKS_LINK_ICON][6]. 
+   [<i class='fa fa-external-link'></i>][6]. 
 4. Gitlab Pages dibuat menggunakan [Gitlab CI][3] yang 
    membutuhkan sebuah file `.gitlab-ci.yml` di dalam _repository_
    kita. 
@@ -153,6 +153,8 @@ dengan mengakses Settings > Pages. Lalu tambahkan domain yang
 diinginkan.
 
 Sekian catatan saya, semoga bermanfaat 😊.
+
+<https://nsetyo.web.id/blog/migrasi-dari-github-ke-gitlab-pages/>
 
 
 [1]: https://pages.github.com/

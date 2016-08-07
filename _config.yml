@@ -33,7 +33,7 @@ navbar-links:
   Unduhan: "unduhan"
   Tentang:
       - Tentang Kami: "tentang-kami"
-      - Profil Kontributor: "sinaudev-tim"
+      - Profil Kontributor: "kontributor"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
