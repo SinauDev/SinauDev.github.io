@@ -4,4 +4,4 @@ title: Unduhan
 subtitle: Berbagi berkas bermanfaat
 ---
 
-* [Mengenal Git](http://localhost) - Buku ini membahas tentang `Git`
+* [Mengenal Git](/berkas/MengenalGit.pdf) - Buku ini membahas tentang `Git`

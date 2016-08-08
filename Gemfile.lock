@@ -133,6 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   execjs
   github-pages
   jekyll-archives
