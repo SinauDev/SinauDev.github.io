@@ -105,7 +105,7 @@ highlighter: rouge
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 # permalink: /:year-:month-:day-:title/
-permalink: /:categories/:title
+permalink: /:categories/:title/
 paginate: 5
 
 kramdown:
@@ -130,7 +130,7 @@ defaults:
 # Include
 include:
   - _categories
-  - _layouts
+  - _pages
 
 # Exclude these files from production site
 exclude:
