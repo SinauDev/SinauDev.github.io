@@ -34,3 +34,8 @@ Untuk baris selanjutnya menjelaskan untuk melakukan pembaruan terhadap sistem op
 Ada pun baris terakhir merupakan perintah yang akan berjalan ketika _container_ dijalankan. Perintah ini hanya boleh dideklarasikan sekali saja, karena Dockerfile hanya akan melakukan eksekusi pada perintah CMD terakhir. Ini dilakukan untuk menjaga agar dalam satu _container_ hanya berjalan satu proses.
 
 Kita pun mendefinisikan bahwa proses tersebut berjalan secara Foreground agar apache tetap berjalan secara foreground. Kenapa kita menggunakan `/usr/sbin/apachectl` dibandingkan dengan `service start httpd`? Padahal kan lebih mudah dan terbiasa menggunakan `systemctl start httpd` bukan?. Kita tidak bisa melakukan hal tersebut, bila kita melakukannya maka container akan berjalan dan kemudian berhenti. Itu dikarenakan tidak ada yang bisa dijalankan oleh _container_. Kita diharuskan melakukan deklarasi perintah seperti `ENV` untuk memberitahukan variabel _system enviroment_ yang dipakai. Untuk penjelasan perintah Dockerfile dan praktik akan kita bahas pada seri selanjutnya.
+
+Referensi:
+
+* [https://aancw.gitbooks.io/docker-101-id/content/contents/Dockerfile.html](https://aancw.gitbooks.io/docker-101-id/content/contents/Dockerfile.html)
+* [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)
