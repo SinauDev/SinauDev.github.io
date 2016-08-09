@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Perkenalan Docker - 1
+title: Perkenalan Docker - [1]
 author: aan
 category: linux
 tags: [Docker, DevOps]
