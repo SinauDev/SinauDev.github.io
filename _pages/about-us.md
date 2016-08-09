@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Tentang Kami
+title: About Us
 subtitle: Sinau Development
+permalink: /about-us
 ---
 
 ## Apa itu Sinau Development ?

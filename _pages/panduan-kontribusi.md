@@ -2,6 +2,7 @@
 layout: page
 title: Panduan Kontribusi
 subtitle: Sinau Development
+permalink: /panduan-kontribusi
 ---
 
 Selamat datang di halaman Panduan Kontribusi, pada halaman ini akan dibahas mengenai tata cara dan beberapa aturan saat melakukan kontribusi yang dimana agar menyeragamkan dan membuat semua teratur. Anda bisa memberikan kontribusi berupa materi/artikel, ide, ataupun `development` untuk perkembangan SinauDev itu sendiri. Namun, sebelum memulai nya anda diharuskan mengikuti beberapa aturan dan petunjuk dalam melakukan kontribusi.
