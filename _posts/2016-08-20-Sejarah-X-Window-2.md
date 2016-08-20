@@ -2,7 +2,7 @@
 layout: post
 title: Proyek X Window
 author: yuga
-category: GNU/Linux
+category: Linux
 tags: [history, X]
 ---
 
