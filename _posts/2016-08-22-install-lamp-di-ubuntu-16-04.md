@@ -31,7 +31,7 @@ Begitu selesai proses pemasangan, silahkan cek di peramban (_browser) Anda denga
 <http://localhost/>
 
 Lihat seperti gambar di bawah ini:
-[![alt lamp](https://situsali.com/wp-content/uploads/2016/06/apache-on.png?resize=216%2C300&ssl=1 "LAMP")](https://situsali.com/wp-content/uploads/2016/06/apache-on.png)
+![alt lamp](https://situsali.com/wp-content/uploads/2016/06/apache-on.png "LAMP")
 
 # Pengaturan
 
@@ -115,5 +115,4 @@ Untuk mempermudah Anda bisa lihat video tutorial yang telah penulis buat berikut
 # Sumber
 
 <https://situsali.com/install-lamp-linux-apache-mariadb-php-dan-phpmyadmin-di-ubuntu-16-04-disertai-video/>
-
 

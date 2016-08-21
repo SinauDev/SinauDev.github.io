@@ -100,6 +100,7 @@ disqus: "sinaudev"
 
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Jakarta"
+future: true
 markdown: kramdown
 highlighter: rouge
 redcarpet:
