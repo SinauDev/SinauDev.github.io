@@ -76,7 +76,7 @@ sudo nano /etc/nginx/nginx.conf
 ```
 Isikan konfigurasi seperti berikut berikut:
 
-```
+```nginx
 #user html;
 worker_processes  1;
  
@@ -124,9 +124,9 @@ sudo nano /etc/nginx/sites-available/default
 ```
 Lalu isikan dengan skrip di bawah ini. Pastikan `server_name` disesuaikan dengan nama _domain_ Anda. Juga untuk `root` sesuaikan dengan direktori yang Anda inginkan.
 
-```
+```nginx
 server {
-        listen       80 default_server;
+    listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
  
         server_name  localhost;
@@ -260,7 +260,7 @@ sudo nano /etc/nginx/sites-available/default
 ```
 Dan tambahkan skrip berikut:
 
-```
+```nginx
 index index.php index.html index.htm;
     
 location ~ \.php$ {
