@@ -28,6 +28,7 @@ navbar-links:
     - GNU/Linux: "linux"
     - Jaringan: "jaringan"
     - Keamanan: "keamanan"
+    - Server: "server"
 
   Panduan Kontribusi: "panduan-kontribusi"
   Unduhan: "unduhan"
