@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2016-08-21 23:00:05 +0700 
 title: Install Nginx, PHP dan Mariadb di Arch Linux
 category: server
 tags: [archlinux, nginx]
@@ -27,7 +28,7 @@ sudo pacman -S nginx php php-fpm mariadb
 
 ## Module PHP Tambahan
 
-Jika butuh tambahan _modul_e php, biasanya dipakai untuk dukungan CMS (_Content Management System_) atau PHP framework.
+Jika butuh tambahan _module_ PHP, biasanya dipakai untuk dukungan CMS (_Content Management System_) atau PHP framework.
 
 ```
 sudo pacman -S composer php-gd php-imap php-intl php-mcrypt php-apcu php-apcu-bc php-cgi php-dblib php-embed php-enchant php-fpm php-odbc php-pgsql php-phpdbg php-pspell php-snmp php-sqlite php-tidy php-xsl php-geoip php-memcache php-memcached php-mongodb
