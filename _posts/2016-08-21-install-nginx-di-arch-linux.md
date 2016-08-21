@@ -1,6 +1,5 @@
 ---
 layout: post
-date: 2016-08-21 23:00:05 +0700 
 title: Install Nginx, PHP dan Mariadb di Arch Linux
 category: server
 tags: [archlinux, nginx]

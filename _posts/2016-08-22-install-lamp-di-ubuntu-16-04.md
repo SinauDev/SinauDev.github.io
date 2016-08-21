@@ -1,6 +1,5 @@
 ---
 layout: post
-date: 2016-08-22 00:43:27 +0700 
 title: Install Apache,Mariadb,PHP dan phpMyAdmin di Ubuntu 16.04 (Disertai Video)
 author: ali
 category: server
