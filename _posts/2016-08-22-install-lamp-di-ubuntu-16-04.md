@@ -26,7 +26,7 @@ Lakukan instalasi seluruhnya apache, mariadb, php dan phpmyadmin dengan cara ber
 sudo apt install apache2 php libapache2-mod-php mariadb-server php7.0 php7.0-cli php7.0-common php7.0-curl php7.0-gd php7.0-mysql php7.0-mbstring php7.0-mcrypt php-gettext phpmyadmin
 ```
 
-Begitu selesai proses pemasangan, silahkan cek di peramban (_browser) Anda dengan memasukan URL `localhost`:
+Begitu selesai proses pemasangan, silahkan cek di peramban (_browser_) Anda dengan memasukan URL `localhost`:
 
 <http://localhost/>
 
