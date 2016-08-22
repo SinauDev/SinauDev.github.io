@@ -60,7 +60,7 @@ sudo mv 000-default.conf lokal.conf
 ```
 Dan sunting berkas `lokal.conf` seperti kode di bawah ini:
 
-```apache
+```
 <VirtualHost *:80>
 
 ServerAdmin webmaster@localhost
@@ -86,7 +86,7 @@ sudo gedit /etc/apache2/apache2.conf
 ```
 Lalu tambahkan skrip berikut:
 
-```apache
+```
 <Directory /code/web/>
     Options Indexes FollowSymLinks
     AllowOverride All
