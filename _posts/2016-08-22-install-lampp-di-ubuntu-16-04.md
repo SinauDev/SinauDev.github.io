@@ -33,3 +33,74 @@ Lihat seperti gambar di bawah ini:
 ![alt lamp](https://situsali.com/wp-content/uploads/2016/06/apache-on.png "LAMP")
 
 # Pengaturan
+
+## Mariadb
+
+Pertama-tama atur dahulu MariaDB kita yakni mengeset _password_ pada akun `root`.
+
+```
+sudo mysql_secure_installation
+```
+
+Jika terjadi galat (_error_) pada phpMyAdmin yang mana tidak dapat masuk dengan akun `root`. Anda bisa mengikuti cara di sini <https://situsali.com/mengatasi-access-denied-for-user-rootlocalhost-pada-phpmyadmin/>
+
+## Apache
+
+Pertama-tama candangkan (_backup_) dahulu berkas `default` dari _virtual host_ dengan cara berikut:
+
+```
+cd /etc/apache2/sites-available/
+sudo cp 000-default.conf 000-default.conf.bak
+```
+Lalu ubah nama berkas `000-default.conf` dengan nama misalnya `lokal.conf`.
+
+```
+sudo mv 000-default.conf lokal.conf
+```
+Dan sunting berkas `lokal.conf` seperti kode di bawah ini:
+
+```apache
+<VirtualHost *:80>
+
+ServerAdmin webmaster@localhost
+DocumentRoot /code/web
+
+<Directory /code/web>
+    Options +Indexes +FollowSymLinks
+    AllowOverride All
+    Order allow,deny
+    allow from all
+</Directory>
+
+</VirtualHost>
+```
+Perhatikan skrip di atas pada baris **ke-4** yakni `DocumentRoot /code/web`. Kode itu disesuaikan dengan alamat direktori Anda, jika ingin dirubah misalnya ke `/opt` tinggal ganti saja.
+
+Skrip di atas sudah mendukung `directory Index` berserta `.htaccess` jadi bisa langsung Anda gunakan untuk keperluan `PHP framework` ataupun CMS (_Content Management System_).
+
+Agar skrip di atas dapat berjalan dengan baik perlu disunting pula pada berkas `apache2.conf` yakni:
+
+```
+sudo gedit /etc/apache2/apache2.conf
+```
+Lalu tambahkan skrip berikut:
+
+```apache
+<Directory /code/web/>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+```
+
+Setelah itu kita _disable_ `000-default` dan jadikan `lokal.conf` sebagai _default_ lakukan perintah berikut:
+
+```
+sudo a2dissite 000-default
+sudo a2ensite lokal
+```
+Kemudian _restart_ Apache Anda:
+
+```
+sudo systemctl restart apache2
+```
