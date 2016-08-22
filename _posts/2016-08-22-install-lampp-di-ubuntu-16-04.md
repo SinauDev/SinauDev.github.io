@@ -26,3 +26,10 @@ sudo apt install apache2 php libapache2-mod-php mariadb-server php7.0 php7.0-cli
 ```
 
 Begitu selesai proses pemasangan, silahkan cek di peramban (_browser_) Anda dengan memasukan URL `localhost`:
+
+<http://localhost/>
+
+Lihat seperti gambar di bawah ini:
+![alt lamp](https://situsali.com/wp-content/uploads/2016/06/apache-on.png "LAMP")
+
+# Pengaturan
