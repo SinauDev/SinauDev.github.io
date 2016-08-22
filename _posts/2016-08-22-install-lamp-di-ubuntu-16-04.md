@@ -4,7 +4,6 @@ title: Install Apache,Mariadb,PHP dan phpMyAdmin di Ubuntu 16.04 (Disertai Video
 author: ali
 category: server
 tags: [ubuntu, apache]
-summary: Tutorial kali ini, penulis menyajikan mengenai tentang bagaimana cara memasang (_install_) LAMP (Linux, Apache, Mariadb, PHP) dan phpMyAdmin di Ubuntu 16.04.
 ---
 
 # Daftar Isi
