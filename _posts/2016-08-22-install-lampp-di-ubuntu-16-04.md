@@ -106,3 +106,13 @@ Kemudian _restart_ Apache Anda:
 ```
 sudo systemctl restart apache2
 ```
+
+# Vidoe Tutorial
+
+Untuk mempermudah Anda bisa lihat video tutorial yang telah penulis buat berikut, durasi 14 menit 52 detik.
+
+<iframe width="730" height="410" src="https://www.youtube.com/embed/E2jeXkfPX64" frameborder="0" allowfullscreen></iframe>
+
+# Sumber
+
+<https://situsali.com/install-lamp-linux-apache-mariadb-php-dan-phpmyadmin-di-ubuntu-16-04-disertai-video/>
