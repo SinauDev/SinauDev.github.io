@@ -32,7 +32,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^barang/(.*)$ index.php?barang=$1 [L]
 ```
-Kita terjemahkan dahulu yakni, setiap kita _request_ di peramban dengan `/barang/nama_barang_nya` itu artinya sama saja kita me-_request_ pada `/index.php?barang=$1`. Dan jika yang di-_request_ tersebut ternyata adalah sebuah berkas atau direktori, maka arahkan langsung ke berkas dan direktori tersebut.
+Kita terjemahkan dahulu yakni, setiap kita _request_ di peramban dengan `/barang/nama_barang_nya` itu artinya sama saja kita me- _request_ pada `/index.php?barang=$1`. Dan jika yang di- _request_ tersebut ternyata adalah sebuah berkas atau direktori, maka arahkan langsung ke berkas dan direktori tersebut.
 
 Gambaranya seperti berikut:
 
@@ -54,6 +54,7 @@ location /barang {
     }
 }
 ```
+
 ### Penjelasan Skrip
 
 Pada skrip di atas kita melihat `root` dengan nilai `/srv/http/tokoku`. Artinya skrip tersebut hanya berlaku pada skrip PHP yang terletak pada direktori `/srv/http/tokoku`. Jadi jika Anda akses _localhost_ hal itu langsung ke direktori tersebut. Seperti gambar di bawah ini:
@@ -114,9 +115,10 @@ server {
     server_name www.domainku.com;
 }
 ```
+
 ### Penjelasan Skrip
 
-Kita menggunakan dua buah `class` _server_ yang mana kedua `class` tersebut memanggil `port 80`. Jika dalam `port` tersebut ada yg me-_request domain_ **tanpa** `www`, maka kita beri kode `return 301` yang artinya memaksa _requester_ untuk masuk harus dengan _domain_ dengan `www`.
+Kita menggunakan dua buah `class` _server_ yang mana kedua `class` tersebut memanggil `port 80`. Jika dalam `port` tersebut ada yg me- _request domain_ **tanpa** `www`, maka kita beri kode `return 301` yang artinya memaksa _requester_ untuk masuk harus dengan _domain_ dengan `www`.
 
 ## Studi Kasus pada Drupal
 
@@ -159,6 +161,7 @@ location / {
 location /favicon.ico {
 }
 ```
+
 ### Penjelasan Skrip
 
 Hampir sama dengan skrip sebelumnya dan jika kita perhatikan masih mirip dengan Regex dari `.htaccess`. Yakni untuk beberapa berkas yang mengandung kata `engine`,`inc`,`info` dan sebagainya kita **blokir**. Langsung saja penulis asumsikan Anda sudah mengerti karena kasusnya mirip dengan skrip sebelumnya.  Kita lanjut dengan melihat skrip berikut di bawah:
@@ -197,6 +200,7 @@ location / {
     try_files $uri /index.php$is_args$args;
 }
 ```
+
 ### Penjelasan Skrip
 
 Mengapa skrip terjemahan atau konversinya hanya sedikit? Sedangkan kita melihat dari `.htaccess` di atas skripnya lebih banyak? Kita mengabaikan skrip pada baris ke-2 dan ke-4 karena dasarnya dengan skrip `try_files` kita sudah dapat melakukan hal itu.
@@ -221,6 +225,7 @@ location / {
     try_files $uri /index.php$is_args$args;
 }
 ```
+
 ### Penjelasan Skrip
 
 Tidak perlu ada penjelasan dalam skrip WP, karena dasarnya sama seperti skrip-skrip di atas.
