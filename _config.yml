@@ -24,6 +24,7 @@ description: Bahtera Ilmu, Pelita Hidup
 # List of links in the navigation bar
 navbar-links:
   Kategori:
+    - Arsip Seluruh Artikel: "arsip"  
     - Pemrograman: "pemrograman"
     - GNU/Linux: "linux"
     - Jaringan: "jaringan"

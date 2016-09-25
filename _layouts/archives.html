@@ -1,0 +1,15 @@
+---
+layout: default
+type: archive
+---
+
+<h1>Daftar Seluruh Artikel Sinaudev</h1>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        {{ post.date | date: "%b %-d, %Y" }} - <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
