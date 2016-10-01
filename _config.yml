@@ -24,14 +24,17 @@ description: Bahtera Ilmu, Pelita Hidup
 # List of links in the navigation bar
 navbar-links:
   Kategori:
-    - Arsip Seluruh Artikel: "arsip"  
+    - Unduhan Berkas: "unduhan"
+    - Arsip Seluruh Artikel: "arsip"
     - Pemrograman: "pemrograman"
     - GNU/Linux: "linux"
     - Jaringan: "jaringan"
     - Keamanan: "keamanan"
     - Server: "server"
-  Panduan Kontribusi: "panduan-kontribusi"
-  Unduhan: "unduhan"
+  Panduan:
+    - Panduan Kontribusi: "panduan-kontribusi"
+  Mitra: "mitra"
+  Donatur: "donatur"
   Tentang:
       - Tentang Kami: "tentang-kami"
       - Profil Kontributor: "kontributor"
@@ -51,7 +54,7 @@ compress_html:
   clippings: all
   comments:  ["<!-- ", " -->"]
   endings: all
-  
+
 sass:
   style: compressed
 
@@ -73,7 +76,7 @@ collections:
   authors:
     output: true
     permalink: /author/:name/
-    
+
 # Select which links to show in the footer
 footer-links-active:
   rss: true
