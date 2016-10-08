@@ -1,6 +1,6 @@
 ---
-layout: page
-title: mitra
+layout: mitra
+title: Mitra
 subtitle: Mitra Sinau Development
 permalink: /mitra
 ---
