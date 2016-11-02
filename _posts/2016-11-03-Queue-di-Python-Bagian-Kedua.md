@@ -24,6 +24,7 @@ d = deque()
 ```
 
 Menambahkan elemen dari kanan dan kiri
+
 ```python
 d.append("b")
 d.appendleft("a")
@@ -33,11 +34,12 @@ print(d)
 
 Dengan cara yang sama, elemen dapat dihapus dari kanan dan kiri
 
+```python
 d.pop()
 d.popleft()
 print(d)
 # keluaran: deque([])
-
+```
 
 Sejak Python 2.6, kamu dapat membatasi jumlah elemen dalam `deque` dengan menggunakan argumen `maxlen` saat instansiasi. Jika limitnya telah terlewati, elemen dari sisi lain akan dihapus ketika menambahkan elemen baru.
 

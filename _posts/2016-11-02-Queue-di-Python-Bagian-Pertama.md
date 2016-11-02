@@ -6,9 +6,9 @@ category: pemrograman
 tags: [python, queue]
 ---
 
-## Cara terbaik untuk implementasi queue sederhana
+## Cara terbaik untuk implementasi queue (antrian) sederhana
 
-`list` sederhana dapat digunakan dengan mudah untuk digunakan dan diimplementasikan sebagai struktur data queue. Queue ini akan memiliki prinsip `first-in, first-out`.
+`list` sederhana dapat digunakan dengan mudah untuk digunakan dan diimplementasikan sebagai struktur data queue. Queue seperti ini akan memiliki prinsip `first-in, first-out (FIFO)`.
 
 Akan tetapi, pendekatan ini merupakan langkah yang tidak efisien karena memasukkan dan mengambil data dari index pertama `list` python cenderung "lambat" karena semua elemen perlu bergeser satu index.
 
