@@ -22,7 +22,9 @@ queue.append("e")
 queue.popleft()
 queue.popleft()
 print(queue)
-# output is: deque(['c', 'd', 'e'])
+# keluarannya adalah: deque(['c', 'd', 'e'])
 ```
 
 Queue balikannya dapat dimplementasikan dengan menggunakan metode `appendleft` daripada `append` dan metode `pop` daripada `popleft`
+
+Disadur dari [sini](https://rezhajulio.id/Queue-in-python-part-1/)
