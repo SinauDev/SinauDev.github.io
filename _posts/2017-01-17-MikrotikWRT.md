@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RouterBoardWRT, buka-bukaan dengan Mikrotik
+title: MikrotikWRT, buka-bukaan dengan Mikrotik
 tags: [mikrotik, openwrt, lede]
 comments: true
 author: ahmadi
