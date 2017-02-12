@@ -23,7 +23,7 @@ Analytics page merupakan fitur yang biasanya ditempatkan pada admin page. Gunany
 
 # Persyaratan
 
-Untuk bisa mengikuti tutorial ini, pembaca diasumsikan sudah mempunyai persyaratan berikut:
+Untuk bisa mengikuti tutorial ini, pembaca diasumsikan sudah memenuhi persyaratan berikut:
 
 1. Local development environment untuk Laravel, antara lain HTTPD *service* (Apache atau NGINX), PHP 5.6+, MySQL/MariaDB, Composer. Bagi pembaca yang menggunakan Windows bisa menggunakan [Laragon](https://laragon.org) yang sudah menyertakan Composer dan semua yang dibutuhkan untuk *development* Laravel.
 2. Domain website yang sudah *up* dan sudah didaftarkan ke [Google Analytics](https://analytics.google.com/analytics/web/).
@@ -255,7 +255,7 @@ Dan `AnalyticsController` kita ubah sedikit, menjadi:
         return view('admin.analytics')->with('analytics', $data);
 ```
 
-Dan file `resources/views/layouts/app.blade.php` kita tambahkan @yield:
+Dan file `resources/views/layouts/app.blade.php` kita tambahkan `@yield`:
 
 ```
 ...
