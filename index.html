@@ -18,15 +18,25 @@ subtitle: Bahtera Ilmu, Pelita Hidup
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      Posted on {{ post.date | date: "%B %-d, %Y" }} oleh
+
+      {% for author in site.authors %}
+      {% if author.username == post.author %}
+        {% if author.website %}
+          <a href="/author/{{ author.username }}">{{ author.fullname }}</a>
+        {% else %}
+          {{ author.name }}
+        {% endif %}
+      {% endif %}
+      {% endfor %}
     </p>
 
     <div class="post-entry">
 	{% if post.summary %}
               {{ post.summary | markdownify }}
-    {% else %}	
+    {% else %}
       {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
-    {% endif %}  
+    {% endif %}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Baca&nbsp;Selengkapnya]</a>
     </div>
 
