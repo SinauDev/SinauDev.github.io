@@ -22,7 +22,7 @@ Berbeda dengan saat mencoba VSCode, berkas yang sama dibuka dan tidak ada jeda u
 
 ### 2. Terintegrasi dengan Terminal
 
-_Ngoding_ dan terminal saat ini udah cukup sering berpasangan, jalanin fungsi-fungsi _composer_ di terminal, _php artisan_ di terminal juga, yang main javascript jalanin perintah _npm_ di terminal juga.Bisanya suka alt+tab gitu gonta ganti dari editor ke terminal, dengan VSCode hal itu udah gak perlu, editor ini udah terintegrasi dengan terminal. Atom juga ada sih pake plugin tambahan.
+_Ngoding_ dan terminal saat ini udah cukup sering berpasangan, jalanin fungsi-fungsi _composer_ di terminal, _php artisan_ di terminal juga, yang main javascript jalanin perintah _npm_ di terminal juga.Biasanya suka alt+tab gitu gonta ganti dari editor ke terminal, dengan VSCode hal itu udah gak perlu, editor ini udah terintegrasi dengan terminal. Atom juga ada sih pake plugin tambahan.
 
 ![](http://photouploads.com/images/263f9d.gif) 
 
@@ -41,7 +41,7 @@ Kalau Anda merasa masih kurang akan fitur-fitur di atas tenang saja VSCode juga 
 
 Sebenarnya fitur ini belum saya coba, tapi jika mau lihat orang-orang yang sudah menggunakan fitur ini bisa ditengok ke akun twitter VSCode.
 
-#### Ahir Kata
+#### Akhir Kata
 
 Bagi yang terbiasa menggunakan Sublime atau Atom awalnya akan kurang nyaman karena beberapa _shortcout_ yang berbeda, tapi itu bisa ditanggulangi dengan plugin seperti _Atom Keymap_.
 Terus walaupun ini produk Microsoft aplikasi ini  _free_ ( setidaknya sampai ini ditulis ), _source code_ nya ada di [Github](https://github.com/Microsoft/vscode), lisensinya MIT. Itu lisensi kodenya kalo lisensi aplikasinya sendiri bisa ditengok di situs ofisial vscode.
