@@ -19,6 +19,12 @@ permalink: /feed.xml
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        {% for tag in post.tags %}
+        <tag>{{ tag | xml_escape }}</tag>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
     {% endfor %}
   </channel>
