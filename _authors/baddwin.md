@@ -7,4 +7,5 @@ website: http://badwi.my.id
 email: slamet.badwi@gmail.com
 ---
 
-Orang Jawa yang suka Jejepangan. Mengaku-ngaku cinta pada sintaksis dan semantik. Dengan seenaknya mengidentikkan sintaksis bahasa manusia dengan sintaksis bahasa pemrograman. Tetapi justru mengambil konsentrasi ekonomi syariah saat ini. Katanya sih, ingin mengubah dunia.
+Orang Jawa, Muslim (maaf bukan bermaksud rasis), sedang menempuh program studi Ekonomi Syariah (serius).
+
